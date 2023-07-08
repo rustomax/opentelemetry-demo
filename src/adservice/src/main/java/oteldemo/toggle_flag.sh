@@ -10,4 +10,4 @@ fi
 
 git add .
 git commit -m "$commit_message"
-git push https://rustomax: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@github.com/rustomax/opentelemetry-demo.git
+git push "https://rustomax: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@github.com/rustomax/opentelemetry-demo.git"
