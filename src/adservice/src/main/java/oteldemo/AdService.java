@@ -177,7 +177,7 @@ public final class AdService {
             Attributes.of(
                 adRequestTypeKey, adRequestType.name(), adResponseTypeKey, adResponseType.name()));
 
-        if (false) {
+        if (true) {
           logger.warn(ADSERVICE_FAIL_FEATURE_FLAG + " fail feature flag enabled");
           throw new StatusRuntimeException(Status.RESOURCE_EXHAUSTED);
         }
